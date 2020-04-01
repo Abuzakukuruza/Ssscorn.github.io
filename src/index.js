@@ -35,7 +35,7 @@ import { UserInfo } from './scripts/UserInfo';
         noError: ''
     }
 
-    const url = NODE_ENV === 'development' ? 'http://praktikum.tk/cohort8' : 'https://praktikum.tk/cohort8';
+    const url = NODE_ENV === 'development' ? 'http://praktikum.tk/cohort6' : 'https://praktikum.tk/cohort6';
 
 
     const card = new Card();
