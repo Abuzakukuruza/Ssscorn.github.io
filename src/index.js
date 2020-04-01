@@ -1,8 +1,4 @@
-// ПЕРЕМЕННЫЕ
 
-// Токен: 72c21e45-064e-408d-8880-9cc3f4690a39
-// Идентификатор группы: cohort8
-// _id: "a4954c0f7488eea50ba868ce"
 
 import './index.css';
 
@@ -39,15 +35,14 @@ import { UserInfo } from './scripts/UserInfo';
         noError: ''
     }
 
-    const url = NODE_ENV === 'development' ? 'http://praktikum.tk/cohort8' : 'https://praktikum.tk/cohort8';
+    const url = NODE_ENV === 'development' ? 'http://95.216.175.5/cohort6' : 'http://95.216.175.5/cohort6';
 
-    // ЭКЗЕМПЛЯРЫ КЛАССОВ
 
     const card = new Card();
     const api = new Api({
         baseUrl: url,
         headers: {
-            authorization: '72c21e45-064e-408d-8880-9cc3f4690a39',
+            authorization: 'cd3b2845-7c47-4a71-bfb6-ab663a09e093',
             'Content-Type': 'application/json'
         }
     });
@@ -79,8 +74,6 @@ import { UserInfo } from './scripts/UserInfo';
     const popupFoto = new PopupFoto(popupPhoto);
 
 
-
-    //СЛУШАТЕЛИ
 
     buttonEdit.addEventListener('click', popupEditProfile.open.bind(popupEditProfile));
     button.addEventListener('click', popupNewPlace.open.bind(popupNewPlace));
