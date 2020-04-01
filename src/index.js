@@ -67,10 +67,7 @@ import { UserInfo } from './scripts/UserInfo';
         })
 
 
-    const newPlace = new NewPlace(placesList);
     const popupNewPlace = new PopupWithFormPlace(popup, cardList, '.popup__input_type_name', '.popup__input_type_link-url');
-    const formValidator = new FormValidator(popupEdit, ERROR_MESSAGES);
-    const formPlaceValidator = new FormValidator(popup, ERROR_MESSAGES);
     const popupFoto = new PopupFoto(popupPhoto);
 
 
