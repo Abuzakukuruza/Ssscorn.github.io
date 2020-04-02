@@ -1,5 +1,5 @@
 # Ssscorn.github.io
-Версия 0.0.2
+Версия 0.0.5
 
 Ссылка: https://abuzakukuruza.github.io/Ssscorn.github.io/
 
